@@ -1,8 +1,8 @@
 <?php
 //Testing Mobile money incoming
 $url = 'https://www.easypay.co.ug/api/';
-$payload = array( 'username' => 'a9861d5b33fd01b4',
-    'password' => '82043d48684b470b',
+$payload = array( 'username' => '',
+    'password' => '',
     'action' => 'mmdeposit',
     'amount' => $amount,
     'phone'=>$contact,
